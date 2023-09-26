@@ -29,14 +29,14 @@
             "shape": "trust-boundary-box",
             "attrs": {
               "headerText": {
-                "text": "Cysec"
+                "text": "CyberSec"
               }
             },
-            "id": "50d3714c-9c32-4920-b401-b0cc21502287",
             "zIndex": -1,
+            "id": "50d3714c-9c32-4920-b401-b0cc21502287",
             "data": {
               "type": "tm.BoundaryBox",
-              "name": "Cysec",
+              "name": "CyberSec",
               "description": "",
               "isTrustBoundary": true,
               "hasOpenThreats": false
@@ -63,8 +63,8 @@
             },
             "visible": true,
             "shape": "actor",
-            "id": "59665753-a411-4a6c-9d91-7c584378102c",
             "zIndex": 1,
+            "id": "59665753-a411-4a6c-9d91-7c584378102c",
             "data": {
               "type": "tm.Actor",
               "name": "Admin user",
@@ -97,8 +97,8 @@
             },
             "visible": true,
             "shape": "actor",
-            "id": "a30dd637-6750-4cab-8dff-f90386ce9835",
             "zIndex": 2,
+            "id": "a30dd637-6750-4cab-8dff-f90386ce9835",
             "data": {
               "type": "tm.Actor",
               "name": "Standard user",
@@ -134,8 +134,8 @@
             },
             "visible": true,
             "shape": "store",
-            "id": "90a1c98c-f1eb-47f0-9d1f-b7d800df55e0",
             "zIndex": 3,
+            "id": "90a1c98c-f1eb-47f0-9d1f-b7d800df55e0",
             "data": {
               "type": "tm.Store",
               "name": "File System",
@@ -174,8 +174,8 @@
             },
             "visible": true,
             "shape": "store",
-            "id": "99e65b74-f255-47bf-97a1-5690f90da2f7",
             "zIndex": 4,
+            "id": "99e65b74-f255-47bf-97a1-5690f90da2f7",
             "data": {
               "type": "tm.Store",
               "name": "Database",
@@ -211,8 +211,8 @@
             },
             "visible": true,
             "shape": "process",
-            "id": "68f7efc6-5aa3-4968-a3a4-bcd00eef5dfb",
             "zIndex": 5,
+            "id": "68f7efc6-5aa3-4968-a3a4-bcd00eef5dfb",
             "data": {
               "type": "tm.Process",
               "name": "Web Server",
@@ -245,8 +245,8 @@
             },
             "visible": true,
             "shape": "process",
-            "id": "84ce6cf7-01de-4ad6-824d-3c3db49e896e",
             "zIndex": 6,
+            "id": "84ce6cf7-01de-4ad6-824d-3c3db49e896e",
             "data": {
               "type": "tm.Process",
               "name": "Frontend",
@@ -279,8 +279,8 @@
             },
             "visible": true,
             "shape": "process",
-            "id": "8f29d8c5-106c-436b-af83-a1838eddab43",
             "zIndex": 7,
+            "id": "8f29d8c5-106c-436b-af83-a1838eddab43",
             "data": {
               "type": "tm.Process",
               "name": "3rd Party Services",
@@ -324,6 +324,9 @@
               "threats": []
             },
             "id": "d5c2ed1b-6960-415a-8cc1-7d4923a5c672",
+            "labels": [
+              "HTTPS"
+            ],
             "source": {
               "x": 604,
               "y": 368
@@ -336,9 +339,6 @@
                 "x": 630,
                 "y": 520
               }
-            ],
-            "labels": [
-              "HTTPS"
             ]
           },
           {
@@ -373,6 +373,9 @@
               "threats": []
             },
             "id": "d3e117d9-8a07-4d2f-828c-c53325c1cdc5",
+            "labels": [
+              "HTTPS"
+            ],
             "source": {
               "cell": "8f29d8c5-106c-436b-af83-a1838eddab43"
             },
@@ -384,9 +387,6 @@
                 "x": 470,
                 "y": 430
               }
-            ],
-            "labels": [
-              "HTTPS"
             ]
           },
           {
@@ -421,6 +421,9 @@
               "threats": []
             },
             "id": "2b5075ce-7397-43f4-beba-9a326e6e4c4e",
+            "labels": [
+              "HTTP"
+            ],
             "source": {
               "cell": "84ce6cf7-01de-4ad6-824d-3c3db49e896e"
             },
@@ -440,9 +443,6 @@
                 "x": 710,
                 "y": 260
               }
-            ],
-            "labels": [
-              "HTTP"
             ]
           },
           {
@@ -477,6 +477,9 @@
               "threats": []
             },
             "id": "1725fef2-589e-40d0-97ba-eab1cbbb9135",
+            "labels": [
+              "HTTP"
+            ],
             "source": {
               "cell": "68f7efc6-5aa3-4968-a3a4-bcd00eef5dfb"
             },
@@ -488,9 +491,6 @@
                 "x": 700,
                 "y": 400
               }
-            ],
-            "labels": [
-              "HTTP"
             ]
           },
           {
@@ -525,6 +525,9 @@
               "threats": []
             },
             "id": "284d6871-6165-4a6f-ad2b-689cb42c6dd9",
+            "labels": [
+              "HTTP"
+            ],
             "source": {
               "cell": "68f7efc6-5aa3-4968-a3a4-bcd00eef5dfb"
             },
@@ -540,9 +543,6 @@
                 "x": 890,
                 "y": 270
               }
-            ],
-            "labels": [
-              "HTTP"
             ]
           },
           {
@@ -577,6 +577,9 @@
               "threats": []
             },
             "id": "8129b700-0708-4709-a40d-c9b7e987d173",
+            "labels": [
+              "Response"
+            ],
             "source": {
               "cell": "99e65b74-f255-47bf-97a1-5690f90da2f7"
             },
@@ -592,9 +595,6 @@
                 "x": 910,
                 "y": 320
               }
-            ],
-            "labels": [
-              "Response"
             ]
           },
           {
@@ -629,6 +629,9 @@
               "threats": []
             },
             "id": "9e8928be-6ff4-4276-81f1-678ad0477f9a",
+            "labels": [
+              "HTTP"
+            ],
             "source": {
               "cell": "90a1c98c-f1eb-47f0-9d1f-b7d800df55e0"
             },
@@ -644,9 +647,6 @@
                 "x": 810,
                 "y": 240
               }
-            ],
-            "labels": [
-              "HTTP"
             ]
           },
           {
@@ -681,6 +681,9 @@
               "threats": []
             },
             "id": "2f6219f4-4019-4519-ba62-6ef12e5c496c",
+            "labels": [
+              "Query"
+            ],
             "source": {
               "cell": "90a1c98c-f1eb-47f0-9d1f-b7d800df55e0"
             },
@@ -692,9 +695,6 @@
                 "x": 990,
                 "y": 320
               }
-            ],
-            "labels": [
-              "Query"
             ]
           },
           {
@@ -729,6 +729,9 @@
               "threats": []
             },
             "id": "12c329d7-2f0e-4f50-81ce-513f5bb6dfad",
+            "labels": [
+              "HTTPS\n"
+            ],
             "source": {
               "cell": "84ce6cf7-01de-4ad6-824d-3c3db49e896e"
             },
@@ -744,9 +747,6 @@
                 "x": 360,
                 "y": 210
               }
-            ],
-            "labels": [
-              "HTTPS\n"
             ]
           },
           {
@@ -781,6 +781,9 @@
               "threats": []
             },
             "id": "9d5f6040-1f9c-4c63-9605-bb9bf48c64e6",
+            "labels": [
+              "HTTPS"
+            ],
             "source": {
               "cell": "a30dd637-6750-4cab-8dff-f90386ce9835"
             },
@@ -792,9 +795,6 @@
                 "x": 400,
                 "y": 300
               }
-            ],
-            "labels": [
-              "HTTPS"
             ]
           },
           {
@@ -829,6 +829,9 @@
               "threats": []
             },
             "id": "16639ba9-ead4-4cf4-b1b0-cd1dc3a20d0c",
+            "labels": [
+              "HTTP"
+            ],
             "source": {
               "cell": "84ce6cf7-01de-4ad6-824d-3c3db49e896e"
             },
@@ -840,9 +843,6 @@
                 "x": 400,
                 "y": 370
               }
-            ],
-            "labels": [
-              "HTTP"
             ]
           },
           {
@@ -877,6 +877,9 @@
               "threats": []
             },
             "id": "255fac05-a744-4136-8ff4-ea5c4a5bed60",
+            "labels": [
+              "HTTPS"
+            ],
             "source": {
               "cell": "59665753-a411-4a6c-9d91-7c584378102c"
             },
@@ -888,9 +891,6 @@
                 "x": 450,
                 "y": 160
               }
-            ],
-            "labels": [
-              "HTTPS"
             ]
           },
           {
