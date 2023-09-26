@@ -709,7 +709,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Response",
+              "name": "HTTPS\n",
               "description": "",
               "outOfScope": false,
               "isBidirectional": false,
@@ -729,12 +729,16 @@
             },
             "vertices": [
               {
+                "x": 440,
+                "y": 250
+              },
+              {
                 "x": 360,
                 "y": 210
               }
             ],
             "labels": [
-              "Response"
+              "HTTPS\n"
             ]
           },
           {
@@ -757,7 +761,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Request",
+              "name": "HTTPS",
               "description": "",
               "outOfScope": false,
               "isBidirectional": false,
@@ -778,11 +782,11 @@
             "vertices": [
               {
                 "x": 400,
-                "y": 280
+                "y": 300
               }
             ],
             "labels": [
-              "Request"
+              "HTTPS"
             ]
           },
           {
@@ -805,7 +809,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Response",
+              "name": "HTTPS",
               "description": "",
               "outOfScope": false,
               "isBidirectional": false,
@@ -825,12 +829,12 @@
             },
             "vertices": [
               {
-                "x": 430,
-                "y": 390
+                "x": 400,
+                "y": 370
               }
             ],
             "labels": [
-              "Response"
+              "HTTPS"
             ]
           },
           {
@@ -853,7 +857,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Request",
+              "name": "HTTPS",
               "description": "",
               "outOfScope": false,
               "isBidirectional": false,
@@ -878,7 +882,7 @@
               }
             ],
             "labels": [
-              "Request"
+              "HTTPS"
             ]
           },
           {
